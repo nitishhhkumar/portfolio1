@@ -146,7 +146,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router>
+      <Router basename="/portfolio1">
         <Navbar toggleColorMode={toggleColorMode} mode={mode} />
         <Routes>
           <Route path="/" element={<Home />} />
